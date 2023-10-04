@@ -1,5 +1,6 @@
 public class TSWaterSupply {
     private final double flowRate = 1.0;
+
     public double getFlowRate(){
         return flowRate;
     }
@@ -9,3 +10,4 @@ public class TSWaterSupply {
         System.out.println("Flow Rate of Water Supply = " + tsWaterSupply.getFlowRate());
     }
 }
+
